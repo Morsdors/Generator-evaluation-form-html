@@ -55,7 +55,7 @@
       color: red;
       }
       th, td {
-      width: 21%;
+      width:16.6%;
       padding: 15px 0;
       border-bottom: 1px solid #ccc;
       text-align: center;
@@ -67,6 +67,10 @@
       .first-col {
       width: 16%;
       text-align: left;
+      }
+      .first-row{
+        height: 80px;
+        line-height: 200%,
       }
       table {
       width: 100%;
@@ -137,7 +141,7 @@
                   document.write(music[rows-1])
                   document.write("' sound-font visualizer='#myVisualizer'> </midi-player>")
                   document.write(" <table border=2px solid black>")
-                  document.write(" <tr> ")
+                  document.write(" <tr class='first-row'> ")
                   document.write("<th class='first-col'></th><th>Negative</th><th>Rather negative</th><th>Can't say</th><th>Rather positive</th><th>Positive</th></tr><tr></tr><tr>\
                   <td>Sentiment</td><td><input type='radio' value=1 name="+sent[rows-1]+" /></td>\
                   <td><input type='radio' value=1 name="+sent[rows-1]+" /></td>\
